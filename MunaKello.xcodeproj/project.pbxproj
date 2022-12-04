@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32EB15EF293D466700EE68C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB15EE293D466700EE68C5 /* AppDelegate.swift */; };
+		32EB15F1293D466700EE68C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB15F0293D466700EE68C5 /* ViewController.swift */; };
+		32EB15F4293D466700EE68C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EB15F2293D466700EE68C5 /* Main.storyboard */; };
+		32EB15F6293D466700EE68C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EB15F5293D466700EE68C5 /* Assets.xcassets */; };
+		32EB15F9293D466700EE68C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EB15F7293D466700EE68C5 /* LaunchScreen.storyboard */; };
+		32EB1604293D466800EE68C5 /* MunaKelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB1603293D466800EE68C5 /* MunaKelloTests.swift */; };
+		32EB160F293D466800EE68C5 /* MunaKelloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB160E293D466800EE68C5 /* MunaKelloUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32EB1600293D466800EE68C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32EB15E3293D466700EE68C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32EB15EA293D466700EE68C5;
+			remoteInfo = MunaKello;
+		};
+		32EB160B293D466800EE68C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32EB15E3293D466700EE68C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32EB15EA293D466700EE68C5;
+			remoteInfo = MunaKello;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32EB15EB293D466700EE68C5 /* MunaKello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MunaKello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EB15EE293D466700EE68C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32EB15F0293D466700EE68C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32EB15F3293D466700EE68C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32EB15F5293D466700EE68C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32EB15F8293D466700EE68C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32EB15FA293D466700EE68C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EB15FF293D466800EE68C5 /* MunaKelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MunaKelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EB1603293D466800EE68C5 /* MunaKelloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunaKelloTests.swift; sourceTree = "<group>"; };
+		32EB1605293D466800EE68C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EB160A293D466800EE68C5 /* MunaKelloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MunaKelloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EB160E293D466800EE68C5 /* MunaKelloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunaKelloUITests.swift; sourceTree = "<group>"; };
+		32EB1610293D466800EE68C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32EB15E8293D466700EE68C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EB15FC293D466800EE68C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EB1607293D466800EE68C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32EB15E2293D466700EE68C5 = {
+			isa = PBXGroup;
+			children = (
+				32EB15ED293D466700EE68C5 /* MunaKello */,
+				32EB1602293D466800EE68C5 /* MunaKelloTests */,
+				32EB160D293D466800EE68C5 /* MunaKelloUITests */,
+				32EB15EC293D466700EE68C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32EB15EC293D466700EE68C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32EB15EB293D466700EE68C5 /* MunaKello.app */,
+				32EB15FF293D466800EE68C5 /* MunaKelloTests.xctest */,
+				32EB160A293D466800EE68C5 /* MunaKelloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32EB15ED293D466700EE68C5 /* MunaKello */ = {
+			isa = PBXGroup;
+			children = (
+				32EB15EE293D466700EE68C5 /* AppDelegate.swift */,
+				32EB15F0293D466700EE68C5 /* ViewController.swift */,
+				32EB15F2293D466700EE68C5 /* Main.storyboard */,
+				32EB15F5293D466700EE68C5 /* Assets.xcassets */,
+				32EB15F7293D466700EE68C5 /* LaunchScreen.storyboard */,
+				32EB15FA293D466700EE68C5 /* Info.plist */,
+			);
+			path = MunaKello;
+			sourceTree = "<group>";
+		};
+		32EB1602293D466800EE68C5 /* MunaKelloTests */ = {
+			isa = PBXGroup;
+			children = (
+				32EB1603293D466800EE68C5 /* MunaKelloTests.swift */,
+				32EB1605293D466800EE68C5 /* Info.plist */,
+			);
+			path = MunaKelloTests;
+			sourceTree = "<group>";
+		};
+		32EB160D293D466800EE68C5 /* MunaKelloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32EB160E293D466800EE68C5 /* MunaKelloUITests.swift */,
+				32EB1610293D466800EE68C5 /* Info.plist */,
+			);
+			path = MunaKelloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32EB15EA293D466700EE68C5 /* MunaKello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32EB1613293D466800EE68C5 /* Build configuration list for PBXNativeTarget "MunaKello" */;
+			buildPhases = (
+				32EB15E7293D466700EE68C5 /* Sources */,
+				32EB15E8293D466700EE68C5 /* Frameworks */,
+				32EB15E9293D466700EE68C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MunaKello;
+			productName = MunaKello;
+			productReference = 32EB15EB293D466700EE68C5 /* MunaKello.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32EB15FE293D466800EE68C5 /* MunaKelloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32EB1616293D466800EE68C5 /* Build configuration list for PBXNativeTarget "MunaKelloTests" */;
+			buildPhases = (
+				32EB15FB293D466800EE68C5 /* Sources */,
+				32EB15FC293D466800EE68C5 /* Frameworks */,
+				32EB15FD293D466800EE68C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32EB1601293D466800EE68C5 /* PBXTargetDependency */,
+			);
+			name = MunaKelloTests;
+			productName = MunaKelloTests;
+			productReference = 32EB15FF293D466800EE68C5 /* MunaKelloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32EB1609293D466800EE68C5 /* MunaKelloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32EB1619293D466800EE68C5 /* Build configuration list for PBXNativeTarget "MunaKelloUITests" */;
+			buildPhases = (
+				32EB1606293D466800EE68C5 /* Sources */,
+				32EB1607293D466800EE68C5 /* Frameworks */,
+				32EB1608293D466800EE68C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32EB160C293D466800EE68C5 /* PBXTargetDependency */,
+			);
+			name = MunaKelloUITests;
+			productName = MunaKelloUITests;
+			productReference = 32EB160A293D466800EE68C5 /* MunaKelloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32EB15E3293D466700EE68C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Simo Loikkanen";
+				TargetAttributes = {
+					32EB15EA293D466700EE68C5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					32EB15FE293D466800EE68C5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 32EB15EA293D466700EE68C5;
+					};
+					32EB1609293D466800EE68C5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 32EB15EA293D466700EE68C5;
+					};
+				};
+			};
+			buildConfigurationList = 32EB15E6293D466700EE68C5 /* Build configuration list for PBXProject "MunaKello" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32EB15E2293D466700EE68C5;
+			productRefGroup = 32EB15EC293D466700EE68C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32EB15EA293D466700EE68C5 /* MunaKello */,
+				32EB15FE293D466800EE68C5 /* MunaKelloTests */,
+				32EB1609293D466800EE68C5 /* MunaKelloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32EB15E9293D466700EE68C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EB15F9293D466700EE68C5 /* LaunchScreen.storyboard in Resources */,
+				32EB15F6293D466700EE68C5 /* Assets.xcassets in Resources */,
+				32EB15F4293D466700EE68C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EB15FD293D466800EE68C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EB1608293D466800EE68C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32EB15E7293D466700EE68C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EB15F1293D466700EE68C5 /* ViewController.swift in Sources */,
+				32EB15EF293D466700EE68C5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EB15FB293D466800EE68C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EB1604293D466800EE68C5 /* MunaKelloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EB1606293D466800EE68C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EB160F293D466800EE68C5 /* MunaKelloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32EB1601293D466800EE68C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32EB15EA293D466700EE68C5 /* MunaKello */;
+			targetProxy = 32EB1600293D466800EE68C5 /* PBXContainerItemProxy */;
+		};
+		32EB160C293D466800EE68C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32EB15EA293D466700EE68C5 /* MunaKello */;
+			targetProxy = 32EB160B293D466800EE68C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32EB15F2293D466700EE68C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32EB15F3293D466700EE68C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32EB15F7293D466700EE68C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32EB15F8293D466700EE68C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32EB1611293D466800EE68C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32EB1612293D466800EE68C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32EB1614293D466800EE68C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XAU4GDHU2;
+				INFOPLIST_FILE = MunaKello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Simo-Loikkanen.MunaKello";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32EB1615293D466800EE68C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XAU4GDHU2;
+				INFOPLIST_FILE = MunaKello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Simo-Loikkanen.MunaKello";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32EB1617293D466800EE68C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XAU4GDHU2;
+				INFOPLIST_FILE = MunaKelloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Simo-Loikkanen.MunaKelloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MunaKello.app/MunaKello";
+			};
+			name = Debug;
+		};
+		32EB1618293D466800EE68C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XAU4GDHU2;
+				INFOPLIST_FILE = MunaKelloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Simo-Loikkanen.MunaKelloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MunaKello.app/MunaKello";
+			};
+			name = Release;
+		};
+		32EB161A293D466800EE68C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XAU4GDHU2;
+				INFOPLIST_FILE = MunaKelloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Simo-Loikkanen.MunaKelloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MunaKello;
+			};
+			name = Debug;
+		};
+		32EB161B293D466800EE68C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XAU4GDHU2;
+				INFOPLIST_FILE = MunaKelloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Simo-Loikkanen.MunaKelloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MunaKello;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32EB15E6293D466700EE68C5 /* Build configuration list for PBXProject "MunaKello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EB1611293D466800EE68C5 /* Debug */,
+				32EB1612293D466800EE68C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32EB1613293D466800EE68C5 /* Build configuration list for PBXNativeTarget "MunaKello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EB1614293D466800EE68C5 /* Debug */,
+				32EB1615293D466800EE68C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32EB1616293D466800EE68C5 /* Build configuration list for PBXNativeTarget "MunaKelloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EB1617293D466800EE68C5 /* Debug */,
+				32EB1618293D466800EE68C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32EB1619293D466800EE68C5 /* Build configuration list for PBXNativeTarget "MunaKelloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EB161A293D466800EE68C5 /* Debug */,
+				32EB161B293D466800EE68C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32EB15E3293D466700EE68C5 /* Project object */;
+}
