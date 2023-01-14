@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3202C2B8294337DB00B4F25D /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3202C2B7294337DB00B4F25D /* alarm_sound.mp3 */; };
 		32EB15EF293D466700EE68C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB15EE293D466700EE68C5 /* AppDelegate.swift */; };
 		32EB15F1293D466700EE68C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB15F0293D466700EE68C5 /* ViewController.swift */; };
 		32EB15F4293D466700EE68C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EB15F2293D466700EE68C5 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3202C2B7294337DB00B4F25D /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 		32EB15EB293D466700EE68C5 /* MunaKello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MunaKello.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32EB15EE293D466700EE68C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32EB15F0293D466700EE68C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				32EB15EE293D466700EE68C5 /* AppDelegate.swift */,
 				32EB15F0293D466700EE68C5 /* ViewController.swift */,
 				32EB15F2293D466700EE68C5 /* Main.storyboard */,
+				3202C2B7294337DB00B4F25D /* alarm_sound.mp3 */,
 				32EB15F5293D466700EE68C5 /* Assets.xcassets */,
 				32EB15F7293D466700EE68C5 /* LaunchScreen.storyboard */,
 				32EB15FA293D466700EE68C5 /* Info.plist */,
@@ -231,6 +234,7 @@
 			files = (
 				32EB15F9293D466700EE68C5 /* LaunchScreen.storyboard in Resources */,
 				32EB15F6293D466700EE68C5 /* Assets.xcassets in Resources */,
+				3202C2B8294337DB00B4F25D /* alarm_sound.mp3 in Resources */,
 				32EB15F4293D466700EE68C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,10 +435,13 @@
 		32EB1614293D466800EE68C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6XAU4GDHU2;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = MunaKello/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,17 +449,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Simo-Loikkanen.MunaKello";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		32EB1615293D466800EE68C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6XAU4GDHU2;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = MunaKello/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +470,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Simo-Loikkanen.MunaKello";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
